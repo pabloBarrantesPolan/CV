@@ -156,8 +156,48 @@ button:focus,
     }
 
 /* --------------------
+ * nav top
+ * -------------------*/
+
+.navegacao{
+  position: fixed;
+  z-index: 10;
+}
+
+.navegacao ul {
+  display: flex;
+  width: 50%;
+  
+}
+.enlace{
+  background-color: #38A857;
+  border-radius: 5px;
+  border: solid 1px white;
+  padding: 10px 5px;
+}
+.enlace a{
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+.enlace:active{
+  border-radius: 5px;
+  color: #4DE879;
+  background-color: #2C8545;
+}
+
+
+
+
+
+
+
+/* --------------------
  * Column Block
  * -------------------*/
+
 
 .columns-block {
     flex-wrap         : wrap;
