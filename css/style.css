@@ -166,8 +166,8 @@ button:focus,
 
 .navegacao ul {
   display: flex;
-  width: 50%;
-  
+  z-index: 999999;
+
 }
 .enlace{
   background-color: #38A857;
